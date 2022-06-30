@@ -74,6 +74,16 @@
     }
 }
 
+@media (max-width: 600px) {
+
+    .content-header h1 {
+        font-size: 3rem;
+        width: 450px;
+        line-height: 3rem;
+    } 
+    
+}
+
 .content-header{
     position: absolute;
     top: 30%;
