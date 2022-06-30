@@ -2,7 +2,7 @@
 
 function typewriter (elemento){
     const textoArray = elemento.innerText.split('');
-    elemento.innerText = '';
+    elemento.innerHTML = '';
     textoArray.forEach((letra, i) => {
         setTimeout(() => elemento.innerHTML += letra , 75 * i)
     });
