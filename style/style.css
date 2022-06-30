@@ -82,6 +82,10 @@
         line-height: 3rem;
     } 
     
+    .content-header {
+        top: 15%;
+        left: 5%;
+    }
 }
 
 .content-header{
