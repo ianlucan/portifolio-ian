@@ -386,30 +386,20 @@ html {
     padding-left: 2rem;
     padding-right: 2rem;
     border-bottom: solid 3px var(--cor-principal);
+    margin-bottom: 2rem;
 }
 
 .conhecimentos {
-    position: absolute;
+    position: relative;
     display: flex;
     width: 100vw;
     height: 100vh;
 }
 
-.left {
-    position: absolute;
-    top: 1rem;
-}
-
-.right{
-    position: absolute;
-    top: 1rem;
-    right: 0;
-}
-
 #html5{
-    position: relative;
+    position: absolute;
     width: 350px;
-    left: 215px;
+    left: 200px;
     margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
@@ -417,9 +407,10 @@ html {
 }
 
 #css3{
-    position: relative;
+    position: absolute;
     width: 350px;
     left: 100px;
+    top: 173px;
     margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
@@ -427,9 +418,10 @@ html {
 }
 
 #js{
-    position: relative;
+    position: absolute;
     width: 350px;
-    left: 215px;
+    left: 200px;
+    bottom: 107px;
     margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
@@ -437,9 +429,9 @@ html {
 }
 
 #design{
-    position: relative;
+    position: absolute;
     width: 350px;
-    right: 215px;
+    right: 200px;
     margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
@@ -447,9 +439,10 @@ html {
 }
 
 #www{
-    position: relative;
+    position: absolute;
     width: 350px;
-    right: 105px;
+    right: 100px;
+    top: 173px;
     margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
@@ -457,9 +450,10 @@ html {
 }
 
 #github{
-    position: relative;
+    position: absolute;
     width: 350px;
-    right: 215px;
+    right: 200px;
+    bottom: 107px;
     margin-bottom: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 10px;
@@ -535,6 +529,91 @@ html {
     .modal p {
         font-size: 1rem;
         margin-bottom: 3rem;
+    }
+
+    /*Conhecimentos*/
+
+    .sessao-header h1 {
+        font-family: var(--titulos);
+        font-size: 2.4rem;
+        color: var(--cor-principal);
+        text-shadow: .1rem .1rem 1px rgba(0,0,0,0.2);
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        border-bottom: solid 3px var(--cor-principal);
+    }
+
+    .conhecimento-img img{
+        object-fit: cover;
+        opacity: .5;
+    }
+    
+    .conhecimentos {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #html5{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    #css3{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    #js{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    #design{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    #www{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    #github{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 10px;
+        border-radius: 5px;
+    
     }
 }
 
